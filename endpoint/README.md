@@ -71,4 +71,4 @@ Best of luck!
 
 **Watch the response**
 
-[ The response ](https://faspay.42web.io/endpoint.php?slack_name=Rukuboy,%Dr.%Saffas&track=backend)
+[ The response ](https://faspay.42web.io/endpoint.php?slack_name=Rukuboy, Dr. Saffas&track=backend)
