@@ -17,7 +17,7 @@ $response = array(
     "current_day" => $currentDay,
     "utc_time" => $utcTime,
     "track" => $track,
-    "github_file_url" => "https://github.com/drsaffas/backend-internship.git",
+    "github_file_url" => "https://github.com/drsaffas/backend-internship/blob/main/endpoint/endpoint.php",
     "github_repo_url" => "https://github.com/drsaffas/backend-internship.git",
     "status_code" => 200
 );

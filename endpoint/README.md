@@ -1,10 +1,10 @@
 ## Backend Stage One Task
 
-###🎯 Objective
+### 🎯 Objective
 Create and host an endpoint using any programming language of your choice.
 The endpoint should take two GET request query parameters and return specific information in JSON format.
 
-###📜 Requirements
+### 📜 Requirements
 The information required includes:
 * Slack name
 * Current day of the week
@@ -56,7 +56,7 @@ Finaly, please use the provided Google Form. Within the form, share the URL of y
 
 ⚠️ Before submitting, do a final checkwith the grader bot to ensure that your endpoint is operational and meets the specified requirements. Incomplete or non-functional submissions may affect your evaluation.
 
-###⌛ Submission Deadline:
+### ⌛ Submission Deadline:
 The deadline for submissions is 12th September 2023, 11:59 PM GMT + 1.
 
 Late submissions will not be entertained .
@@ -65,4 +65,10 @@ If you encounter any issues or have questions regarding the task or the submissi
 
 Best of luck!
 
+**Look at my solution**
+
 [ My Solution ](./endpoint.php)
+
+**Watch the response**
+
+[ The response ](https://faspay.42web.io/endpoint.php)
