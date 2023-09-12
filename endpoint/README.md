@@ -71,4 +71,4 @@ Best of luck!
 
 **Watch the response**
 
-[ The response ](https://faspay.42web.io/api?slack_name=Faruk_Abubakar_Sadiq&track=backend)
+[ The response ](http://faspay.42web.io/api?slack_name=Faruk_Abubakar_Sadiq&track=backend)
