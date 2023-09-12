@@ -20,10 +20,10 @@ Develop an API with endpoints for:
 #### Testing:
 * Using tools like Postman or (scripts written in Python using the requests library) that tests each CRUD operation in your API.
 * This  should:
- - Add a new person (e.g., "Mark Essien").
- - Fetch details of a person
- - Modify the details of an existing person.
- - Remove a person 
+  - Add a new person (e.g., "Mark Essien").
+  - Fetch details of a person
+  - Modify the details of an existing person.
+  - Remove a person 
 
 #### Dynamic Parameter Handling:
 * Your API should be flexible enough to handle dynamic input. If we provide a name (or other details), your backend should be able to process operations using that name.
