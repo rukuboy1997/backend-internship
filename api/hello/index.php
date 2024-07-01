@@ -6,9 +6,9 @@ function getLocation($ip, $ipinfoToken) {
     return json_decode($locationData, true);
 }
 
-// Function to get temperature based on city using OpenWeatherMap
+// Function to get temperature based on city using WeatherAPI.com
 function getTemperature($city, $weatherApiKey) {
-    $url = "https://api.openweathermap.org/data/2.5/weather?q={$city}&appid={$weatherApiKey}&units=metric";
+    $url = "http://api.weatherapi.com/v1/current.json?key={$weatherApiKey}&q={$city}";
     $weatherData = file_get_contents($url);
     return json_decode($weatherData, true);
 }
@@ -19,9 +19,9 @@ $visitorName = isset($_GET['visitor_name']) ? $_GET['visitor_name'] : 'Guest';
 // Get the client's IP address
 $clientIP = $_SERVER['REMOTE_ADDR'];
 
-// Replace with your ipinfo.io token and OpenWeatherMap API key
+// Replace with your ipinfo.io token and WeatherAPI.com API key
 $ipinfoToken = '28d61fa433e5d6';
-$weatherApiKey = '3aa72388968c48f0ca5bdfc61dc5961a';
+$weatherApiKey = '14b51f88e6e7456ebb6213543240107';
 
 // Get location data
 $locationData = getLocation($clientIP, $ipinfoToken);
@@ -29,7 +29,7 @@ $city = isset($locationData['city']) ? $locationData['city'] : 'Unknown';
 
 // Get weather data
 $weatherData = getTemperature($city, $weatherApiKey);
-$temperature = isset($weatherData['main']['temp']) ? $weatherData['main']['temp'] : 'unknown';
+$temperature = isset($weatherData['current']['temp_c']) ? $weatherData['current']['temp_c'] : 'unknown';
 
 // Create the response array
 $response = [
