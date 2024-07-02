@@ -21,7 +21,7 @@ $clientIP = $_SERVER['REMOTE_ADDR'];
 
 // Replace with your ipinfo.io token and WeatherAPI.com API key
 $ipinfoToken = '28d61fa433e5d6';
-$weatherApiKey = '14b51f88e6e7456ebb6213543240107';
+$weatherApiKey = '5602c16bfe2f4e03a69122619240207';
 
 // Get location data
 $locationData = getLocation($clientIP, $ipinfoToken);
