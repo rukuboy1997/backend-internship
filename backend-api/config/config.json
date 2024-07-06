@@ -1,0 +1,41 @@
+{
+  "development": {
+    "username": "default",
+    "password": "V60iUYCQNBXP",
+    "database": "verceldb",
+    "host": "ep-polished-flower-a4l5ls97.us-east-1.aws.neon.tech",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "username": "default",
+    "password": "V60iUYCQNBXP",
+    "database": "verceldb_test",
+    "host": "ep-polished-flower-a4l5ls97.us-east-1.aws.neon.tech",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "production": {
+    "username": "default",
+    "password": "V60iUYCQNBXP",
+    "database": "verceldb",
+    "host": "ep-polished-flower-a4l5ls97.us-east-1.aws.neon.tech",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
